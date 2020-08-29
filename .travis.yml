@@ -8,7 +8,7 @@ before_install:
 
 
 script:
-  - docker run -e CI=true olusegunf/docker-react
+  - docker run olusegunf/docker-react
 
 deploy:
   provider: elasticbeanstalk
